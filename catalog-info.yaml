@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: testrepo3
+  title: Test Repository 3
+  description: Demo component generated from testrepo3
+  annotations:
+    github.com/project-slug: pentestmseilmaier/testrepo3
+
+spec:
+  type: service
+  lifecycle: production
+  owner: guest
